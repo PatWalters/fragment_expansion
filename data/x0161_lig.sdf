@@ -1,0 +1,166 @@
+xxxx_ligand
+                    3D
+ Schrodinger Suite 2019-4.
+ 23 23  0  0  1  0            999 V2000
+   13.8921   -2.4077   24.1269 C   0  0  0  0  0  0
+   13.4897   -0.2702   23.1446 C   0  0  0  0  0  0
+   12.8011    1.0351   23.3277 C   0  0  0  0  0  0
+   11.6117    1.1475   24.0810 C   0  0  0  0  0  0
+   10.9808    2.3973   24.2401 C   0  0  0  0  0  0
+   11.5348    3.5418   23.6347 C   0  0  0  0  0  0
+   12.7111    3.4432   22.8672 C   0  0  0  0  0  0
+   13.3408    2.1928   22.7264 C   0  0  0  0  0  0
+    9.4491    5.0959   22.7844 N   0  0  0  0  0  0
+   13.2656   -1.1348   24.1544 O   0  0  0  0  0  0
+   14.2110   -0.5201   22.1789 O   0  0  0  0  0  0
+   11.6894    6.1877   23.4320 O   0  0  0  0  0  0
+   10.1931    5.1760   25.2380 O   0  0  0  0  0  0
+   10.7644    5.1384   23.8833 S   0  0  0  0  0  0
+   13.5601   -3.0220   24.9622 H   0  0  0  0  0  0
+   13.6512   -2.9371   23.2047 H   0  0  0  0  0  0
+   14.9743   -2.3067   24.1963 H   0  0  0  0  0  0
+   11.1706    0.2738   24.5305 H   0  0  0  0  0  0
+   10.0785    2.4749   24.8291 H   0  0  0  0  0  0
+   13.1467    4.3202   22.4103 H   0  0  0  0  0  0
+   14.2657    2.1382   22.1772 H   0  0  0  0  0  0
+    8.9928    6.0050   22.7148 H   0  0  0  0  0  0
+    8.7689    4.3739   23.0292 H   0  0  0  0  0  0
+  1 10  1  0  0  0
+  1 15  1  0  0  0
+  1 16  1  0  0  0
+  1 17  1  0  0  0
+  2  3  1  0  0  0
+  2 10  1  0  0  0
+  2 11  2  0  0  0
+  3  4  1  0  0  0
+  3  8  2  0  0  0
+  4  5  2  0  0  0
+  4 18  1  0  0  0
+  5  6  1  0  0  0
+  5 19  1  0  0  0
+  6  7  2  0  0  0
+  6 14  1  0  0  0
+  7  8  1  0  0  0
+  7 20  1  0  0  0
+  8 21  1  0  0  0
+  9 14  1  0  0  0
+  9 22  1  0  0  0
+  9 23  1  0  0  0
+ 12 14  2  0  0  0
+ 13 14  2  0  0  0
+M  END
+> <s_m_entry_id>
+3
+
+> <s_m_entry_name>
+Mpro-x0161.1_ligand
+
+> <s_pdb_PDB_TITLE>
+---
+
+> <s_pdb_PDB_ID>
+xxxx
+
+> <r_pdb_PDB_CRYST1_a>
+112.891
+
+> <r_pdb_PDB_CRYST1_b>
+53.03
+
+> <r_pdb_PDB_CRYST1_c>
+44.352
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+102.46
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+C 1 2 1
+
+> <i_pdb_PDB_CRYST1_z>
+0
+
+> <s_pdb_PDB_CLASSIFICATION>
+----
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+19-MAR-20
+
+> <s_pdb_PDB_format_version>
+3.0
+
+> <r_pdb_PDB_R>
+0.17298
+
+> <r_pdb_PDB_Rfree>
+0.23459
+
+> <s_m_Source_Path>
+/Users/pwalters/Downloads/Mpro full XChem screen - pdbs - active site non-covalent - ver-2020-03-20
+
+> <s_m_Source_File>
+Mpro-x0161.pdb
+
+> <i_m_Source_File_Index>
+1
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2019-4
+
+> <s_ppw_het_states>
+eJx9kUGOwjAMRa9Sdd1BsdvYlKuguQGa3awq7k7ckL6UBSzQ75Md/29vo4y34V5+Oi/XaUi/0xByPWROSAkZ+l1dkdJTgdDZQCE/6VLA9pyGv//Ho/4HH/VwkJVZM3JB5s5BVFek9FQgdDbwzcGMA2OWI9lMXnsHtr+/4sAbEDob+OZgORwY+zZBshljM8ZmLCPJYGQwMhjXdaY505xpPnd5bb+oES8cVnNn8FkRY5QkNYScgFOxnzGyKTFrQiFszak98O5Ra48K8U8VLg0ooRsopFwqSWnaxpzUy3nkkjSCxff1+P445fMFMt65bw==
+
+> <r_i_Potential_Energy-OPLS_2005>
+-2395.77715780519
+
+> <r_i_RMS_Derivative-OPLS_2005>
+0.165728621869042
+
+> <r_i_Max_Derivative-OPLS_2005>
+2.51871202978961
+
+> <r_i_Stretch_Energy-OPLS_2005>
+103.209636953924
+
+> <r_i_Bend_Energy-OPLS_2005>
+463.420811497794
+
+> <r_i_LJ-14_Energy-OPLS_2005>
+1377.85608630026
+
+> <r_i_El-14_Energy-OPLS_2005>
+556.729474810917
+
+> <r_i_Van_der_Waals_Energy-OPLS_2005>
+-3153.98164571049
+
+> <r_i_Electrostatic_Energy-OPLS_2005>
+-2538.17700160729
+
+> <r_i_Dihedral_Energy-OPLS_2005>
+669.569596207195
+
+> <r_i_target_temperature>
+298
+
+> <s_m_job_name>
+prepwizard_1
+
+> <s_m_subgroup_title>
+prepwizard_1-out1->xxxx_split_by_structure
+
+> <s_m_subgroupid>
+prepwizard_1-out1->xxxx_split_by_structure
+
+> <b_m_subgroup_collapsed>
+0
+
+$$$$
