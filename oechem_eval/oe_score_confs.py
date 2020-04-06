@@ -9,7 +9,7 @@ from openeye.oedocking import *
 from openeye.oequacpac import *
 from tqdm import tqdm
 
-from bump_check import BumpCheck
+from oe_bump_check import BumpCheck
 from oe_rigid_body_opt import RigidBodyOptimizer
 from oe_rms_calculator import RMSCalculator
 
