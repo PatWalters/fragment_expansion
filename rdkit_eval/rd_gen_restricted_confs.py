@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from typing import List, Optional
 
 from rdkit import Chem
@@ -90,7 +92,7 @@ class ProteinLigandClashFilter:
 
 def main():
     cmd_str = """Usage:
-    rd_gen_restricted_confs.py --pdb PDB_FILE --smi SMILES_FILE --fix FIX_FILE --out OUTPUT_FILE [--max MAX_CONFS] [--rms RMS]
+    rd_gen_restricted_confs.py --pdb PDB_FILE --smi SMILES_FILE --fix FIX_FILE --out OUTPUT_FILE [--max MAX_CONFS] [--rms RMS] [--bump BUMP_CUTOFF]
 
     Options:
     --pdb PDB_FILE protein pdb file
@@ -99,6 +101,7 @@ def main():
     --out OUTPUT_FILE output file name
     --max MAX_CONFS maximum number of conformers to generate - default 25
     --rms RMS RMS cutoff - default 0.01 
+    --bump BUMP_CUTOFF bump cutoff - default 1.5A
     """
     cmd_input = docopt(cmd_str)
     pdb_file_name = cmd_input.get("--pdb")
@@ -109,12 +112,14 @@ def main():
     max_confs = int(max_confs)
     rms = cmd_input.get('--rms') or 0.01
     rms = float(rms)
+    bump_cutoff = cmd_input.get("--bump") or 1.5
+    bump_cutoff = float(bump_cutoff)
 
     ref = Chem.MolFromMolFile(fix_file_name)
     suppl = Chem.SmilesMolSupplier(smiles_file_name, titleLine=False)
     writer = Chem.SDWriter(output_file_name)
 
-    clash_filter = ProteinLigandClashFilter(pdb_file_name, distance=0.5)
+    clash_filter = ProteinLigandClashFilter(pdb_file_name, distance=bump_cutoff)
 
     for mol in tqdm(suppl):
         # generate conformers
