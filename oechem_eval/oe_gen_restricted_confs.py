@@ -7,7 +7,7 @@ from openeye.oequacpac import *
 from tqdm import tqdm
 
 cmd_str = """Usage:
-gen_restricted_confs.py --smi SMILES_FILE --fix FIX_FILE --out OUTPUT_FILE
+oe_gen_restricted_confs.py --smi SMILES_FILE --fix FIX_FILE --out OUTPUT_FILE
 
 Options:
 --smi SMILES_FILE input SMILES file name

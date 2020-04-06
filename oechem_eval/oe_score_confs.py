@@ -10,11 +10,11 @@ from openeye.oequacpac import *
 from tqdm import tqdm
 
 from bump_check import BumpCheck
-from rigid_body_opt import RigidBodyOptimizer
-from rms_calculator import RMSCalculator
+from oe_rigid_body_opt import RigidBodyOptimizer
+from oe_rms_calculator import RMSCalculator
 
 cmd_str = """Usage:
-score_confs.py --prot PROTEIN_FILE --lig LIGAND_FILE --ref REFERENCE_FILE --out OUTPUT_FILE [--bump BUMP_CUTOFF] [--rms RMS_CUTOFF] [--top TOP_OUT]
+oe_score_confs.py --prot PROTEIN_FILE --lig LIGAND_FILE --ref REFERENCE_FILE --out OUTPUT_FILE [--bump BUMP_CUTOFF] [--rms RMS_CUTOFF] [--top TOP_OUT]
 
 Options:
 --prot PROTEIN_FILE protein file
